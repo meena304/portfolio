@@ -36,7 +36,7 @@ function Contact() {
               <input
                 type="hidden"
                 name="_next"
-                value="http://localhost:5173/"
+                value="https://portfolio-jet-theta-74.vercel.app/"
               />
 
               <div className="form-group">
