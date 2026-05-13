@@ -56,7 +56,7 @@ function Hero() {
           {/* RIGHT IMAGE */}
           <div className="hero-right">
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, x: 60 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
@@ -67,7 +67,7 @@ function Hero() {
                 alt="Meena Kumari"
                 className="hero-image"
               />
-            </motion.div>
+            </motion.div> */}
 
           </div>
 
@@ -75,7 +75,9 @@ function Hero() {
 
       </div>
 
-      <div className="hero-circle"></div>
+      {/* <div className="hero-circle"></div>
+      <div className="hero-circle-2"></div> */}
+
 
     </section>
   );

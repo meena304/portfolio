@@ -294,10 +294,23 @@ img {
 
   position: absolute;
 
-  right: 35%;
+  right: 25%;
   bottom: 120px;
 }
 
+.hero-circle-2 {
+  width: 180px;
+  height: 180px;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  border-radius: 50%;
+
+  position: absolute;
+
+  right: 15%;
+  bottom: 120px;
+}
 /* ===================================================
    EXPERTISE
 =================================================== */
@@ -886,6 +899,10 @@ img {
   }
 
   .hero-circle {
+    display: none;
+  }
+
+  .hero-circle-2 {
     display: none;
   }
 
